@@ -1,5 +1,6 @@
 galaxy_info:
   author: Anurag Jain, Developer Advocate
+  role_name: nfs
   description: NFS Server Role for Ansible
   company: Thales
   license: "license (BSD, MIT)"
