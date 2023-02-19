@@ -15,7 +15,7 @@
 
 - name: Get Jinja template
   template:
-    src: exports.j2
+    src: export_vars.j2
     dest: /etc/exports
     owner: root
     group: root
