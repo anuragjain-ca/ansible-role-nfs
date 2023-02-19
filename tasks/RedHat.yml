@@ -1,0 +1,9 @@
+---
+- name: Install NFS packages
+  package: name=nfs-utils state=present
+
+- name: Running rpcbind
+  service:
+    name: rpcbind
+    state: "{{ rpcbind_state }}"
+    enabled: "{{ rpcbind_enabled }}"
