@@ -16,7 +16,7 @@ nfs_exports
 ```
 nfs_exports holds an array of exports that this NFS server will be configured with. example
 ```
-/srv/homes       hostname1(rw,sync,no_subtree_check) hostname2(ro,sync,no_subtree_check)
+/srv/homes       hostname1(rw,sync,no_subtree_check)
 ```
 
 ```
@@ -31,7 +31,7 @@ Example Playbook
 ```
 - hosts: target
   roles:
-    - { role: anuragjain-ca.nfs }
+    - { role: anuragjain_ca.nfs }
 ```
 
 License
